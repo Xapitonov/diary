@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    Diary - Personal diary for Android
+    Copyright © 2012  Josep Portella Florit <hola@josep-portella.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+  -->
+
+<resources>
+  <string name="appName">Дневник</string>
+  <string name="today">Сегодня</string>
+  <string name="prevEntry">Ранее</string>
+  <string name="nextEntry">Далее</string>
+  <string name="goToDate">Перейти к дате…</string>
+  <string name="addLink">Добавить ссылку</string>
+  <string name="search">Найти…</string>
+  <string name="findAll">Найти все…</string>
+  <string name="print">Распечатать…</string>
+  <string name="share">Поделиться…</string>
+  <string name="addTime">Добавить время</string>
+  <string name="addEvents">Добавить события</string>
+  <string name="addMedia">Добавить медиа…</string>
+  <string name="editStyles">Редактор CSS-styles…</string>
+  <string name="editScript">Редактор JS-script…</string>
+  <string name="backup">Сделать под резерв…</string>
+  <string name="choose">Выбрать имя файла</string>
+  <string name="storage">Проводник</string>
+  <string name="start">Резерв запущен</string>
+  <string name="complete">Резерв окончен</string>
+  <string name="changes">Сохранить изменения?</string>
+  <string name="save">Сохранить</string>
+  <string name="discard">Выбросить</string>
+  <string name="settings">Настройки</string>
+  <string name="calendar">Календарь</string>
+  <string name="pref_calendar">Личный календарь</string>
+  <string name="pref_calendar_summ">
+    Использовать личный календарь вместо выборщика даты
+  </string>
+  <string name="markdown">Маркдаун</string>
+  <string name="pref_markdown">Маркдаун разметка</string>
+  <string name="pref_markdown_summ">
+    Использовать разметку для форматирования записей
+  </string>
+  <string name="selection">Выделение</string>
+  <string name="pref_extended">Расширенное выделение</string>
+  <string name="pref_extended_summ">
+    Использовать расширенное выделение при редактировании записей
+  </string>
+  <string name="media">Мультимедиа</string>
+  <string name="pref_copy_media">Копировать изображения</string>
+  <string name="pref_copy_media_summ">
+   Копирование вставленных изображений в текущую папку
+  </string>
+  <string name="pref_external">Браузер</string>
+  <string name="pref_external_summ">
+    Использовать веб-браузер для внешних ссылок
+  </string>
+  <string name="folder">Папка</string>
+  <string name="theme">Тема</string>
+  <string translatable="false" name="pref_theme_summ">%s</string>
+  <string name="index">Индексировать</string>
+  <string name="pref_use_index">Индексирование страницы</string>
+  <string name="pref_use_index_summ">
+    Использовать индексную страницу для журнала
+  </string>
+  <string name="pref_index_page">Индексация страницы</string>
+  <string name="template">Шаблон</string>
+  <string name="pref_use_template">Шаблон записей</string>
+  <string name="pref_use_template_summ">
+    Использовать шаблон для записей в дневнике
+  </string>
+  <string name="pref_template_page">Страничный шаблон</string>
+  <string name="pref_index_template">Шаблон индексации</string>
+  <string name="about">О программе</string>
+  <string name="pref_about_summ"><a
+    href="https://github.com/billthefarmer/diary/releases/latest">Версия
+    %s</a>
+  </string>
+  <string name="built">Сборка %s</string>
+  <string name="licence">Лицензия <a
+  href="https://www.gnu.org/licenses/gpl.txt">GNU GPLv3</a>
+  </string>
+  <string name="copyright">Разработчик \u00A9 2012 <a
+  href="mailto:hola@josep-portella.com">Жозеп Портелла Флорит</a>\nРазработчик \u00A9 2017 <a
+  href="https://billthefarmer.github.io">Билл Фармер</a>\n\nЛичный календарь от <a
+  href="https://github.com/npanigrahy/Custom-Calendar-View">Custom
+  Calendar View</a>, Вид разметки от <a
+  href="https://github.com/falnatsheh/MarkdownView">Markdown View</a>,
+  Японский перевод от <a
+  href="https://github.com/naofum">naofum</a>, Немецкий перевод от
+  <a href="https://github.com/jaller94">Кристиан Пауль</a>, Французский перевод от <a href="https://github.com/comptuzus">Дэвид Та</a>,
+  Итальянский перевод от <a href="https://github.com/marcoM32">Марко Маглиано</a>, Польский перевод от <a
+  href="https://github.com/bla-ke">Дария Шатан</a>, Упрощённый Китайский перевод от <a
+  href="https://github.com/Therhokar">Терхокар Янг</a>, Бразильский Португальский перевод от <a
+  href="https://github.com/jeisoncp">Джейсон Пандини</a>, Нидерландский перевод от <a href="https://github.com/Vistaus">Хаймен Стоффельс</a>, Утилиты для файлов от <a
+  href="https://github.com/iPaulPro">Пол Буркей</a>,, Русский перевод от <a
+  href="https://github.com/Xapitonov">Xapitonov</a>
+  </string>
+</resources>
